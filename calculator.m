@@ -254,6 +254,6 @@ function func_plusminus(~,~)
 cache_in = [cache_in,'*(-1)'];
 end
 function func_root(~,~)
-cache_in = [cache_in,'^(-0.5)'];
+cache_in = [cache_in,'^(0.5)'];
 end
 end
